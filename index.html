@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+    <title>Frontend Mentor | Order summary card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 14px;
+        text-align: center;
+        bottom: 0px;
+        position: fixed;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="flexbox-container">
+        <div class="flexbox-item">
+          <img class="music-img" src="images/music.png" alt="music-img" />
+          <div>
+            <h2 style="color: hsl(223, 47%, 23%); font-weight: 900">Order summary</h2>
+          </div>
+          <div style="padding: 0 20px 0 20px">
+            <p style="font-size:16px; font-weight:500;">
+              You can now listen to millions of songs, audiobooks, and podcasts
+              on any device anywhere you like!
+            </p>
+          </div>
+          <div
+            style="
+              position: relative;
+              border-radius: 10px;
+              height: 70px;
+              background-color: hsl(225, 100%, 98%);
+              display: flex;
+              width: 80%;
+              text-align: center;
+              margin: 0 0 0 40px;
+              justify-content: space-around;
+              align-items: center;
+            "
+          >
+            <div>
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+                <g fill="none" fill-rule="evenodd">
+                  <circle cx="24" cy="24" r="24" fill="#DFE6FB" />
+                  <path
+                    fill="#717FA6"
+                    fill-rule="nonzero"
+                    d="M32.574 15.198a.81.81 0 00-.646-.19L20.581 16.63a.81.81 0 00-.696.803V26.934a3.232 3.232 0 00-1.632-.44A3.257 3.257 0 0015 29.747 3.257 3.257 0 0018.253 33a3.257 3.257 0 003.253-3.253v-8.37l9.726-1.39v5.327a3.232 3.232 0 00-1.631-.441 3.257 3.257 0 00-3.254 3.253 3.257 3.257 0 003.254 3.253 3.257 3.257 0 003.253-3.253V15.81a.81.81 0 00-.28-.613z"
+                  />
+                </g>
+              </svg>
+            </div>
+            <div style="width:100px;"><b>Annual Plan</b> $59.99/year</div>
+            <div><a href="#">Change</a></div>
+          </div>
+          <button
+            style="
+              margin: 20px 0 0 0;
+              height: 35px;
+              width: 320px;
+              border-radius: 10px;
+              background-color:hsl(245, 75%, 52%);
+              box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+              color:white;
+              border:none;
+              font-weight:900;
+              font-family: "Red Hat Display", sans-serif;
+              font-size:16px;
+            "
+          >
+            Proceed to Payment
+          </button>
+          <div style="margin-top:20px">
+            <p class="cancel-order">Cancel Order</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Aditya Kumar</a>.
+    </div>
+  </body>
+</html>
